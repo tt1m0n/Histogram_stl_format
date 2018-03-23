@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Envision.dir/main.cpp.o"
+  "CMakeFiles/Envision.dir/read_one_facet.cpp.o"
   "Envision.pdb"
   "Envision"
 )

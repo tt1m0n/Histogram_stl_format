@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/omakovsk/Desktop/Envision/initialize.cpp
+viewer.hpp
+/Users/omakovsk/Desktop/Envision/viewer.hpp
+
+/Users/omakovsk/Desktop/Envision/main.cpp
+viewer.hpp
+/Users/omakovsk/Desktop/Envision/viewer.hpp
+
+/Users/omakovsk/Desktop/Envision/print_errors.cpp
+viewer.hpp
+/Users/omakovsk/Desktop/Envision/viewer.hpp
+
+/Users/omakovsk/Desktop/Envision/read_facet.cpp
+viewer.hpp
+/Users/omakovsk/Desktop/Envision/viewer.hpp
+
+/Users/omakovsk/Desktop/Envision/read_facet_add.cpp
+viewer.hpp
+/Users/omakovsk/Desktop/Envision/viewer.hpp
+
+/Users/omakovsk/Desktop/Envision/string_to_double.cpp
+viewer.hpp
+/Users/omakovsk/Desktop/Envision/viewer.hpp
+
+/Users/omakovsk/Desktop/Envision/viewer.hpp
+fstream
+-
+iostream
+-
+sys/stat.h
+-
+fstream
+-
+cctype
+-
+

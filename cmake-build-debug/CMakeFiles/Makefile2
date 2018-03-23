@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /Users/omakovsk/Desktop/Envision
 CMAKE_BINARY_DIR = /Users/omakovsk/Desktop/Envision/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Envision.dir
+# Target rules for target CMakeFiles/view.dir
 
 # All Build rule for target.
-CMakeFiles/Envision.dir/all:
-	$(MAKE) -f CMakeFiles/Envision.dir/build.make CMakeFiles/Envision.dir/depend
-	$(MAKE) -f CMakeFiles/Envision.dir/build.make CMakeFiles/Envision.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/omakovsk/Desktop/Envision/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Envision"
-.PHONY : CMakeFiles/Envision.dir/all
+CMakeFiles/view.dir/all:
+	$(MAKE) -f CMakeFiles/view.dir/build.make CMakeFiles/view.dir/depend
+	$(MAKE) -f CMakeFiles/view.dir/build.make CMakeFiles/view.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/omakovsk/Desktop/Envision/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target view"
+.PHONY : CMakeFiles/view.dir/all
 
 # Include target in all.
-all: CMakeFiles/Envision.dir/all
+all: CMakeFiles/view.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Envision.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/omakovsk/Desktop/Envision/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Envision.dir/all
+CMakeFiles/view.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/omakovsk/Desktop/Envision/cmake-build-debug/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/view.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/omakovsk/Desktop/Envision/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Envision.dir/rule
+.PHONY : CMakeFiles/view.dir/rule
 
 # Convenience name for target.
-Envision: CMakeFiles/Envision.dir/rule
+view: CMakeFiles/view.dir/rule
 
-.PHONY : Envision
-
-# clean rule for target.
-CMakeFiles/Envision.dir/clean:
-	$(MAKE) -f CMakeFiles/Envision.dir/build.make CMakeFiles/Envision.dir/clean
-.PHONY : CMakeFiles/Envision.dir/clean
+.PHONY : view
 
 # clean rule for target.
-clean: CMakeFiles/Envision.dir/clean
+CMakeFiles/view.dir/clean:
+	$(MAKE) -f CMakeFiles/view.dir/build.make CMakeFiles/view.dir/clean
+.PHONY : CMakeFiles/view.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/view.dir/clean
 
 .PHONY : clean
 

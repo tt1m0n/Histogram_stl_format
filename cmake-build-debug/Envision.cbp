@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/omakovsk/Desktop/Envision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Envision">
-				<Option output="/Users/omakovsk/Desktop/Envision/cmake-build-debug/Envision" prefix_auto="0" extension_auto="0"/>
+			<Target title="view">
+				<Option output="/Users/omakovsk/Desktop/Envision/view" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/omakovsk/Desktop/Envision/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/omakovsk/Desktop/Envision/cmake-build-debug/Makefile&quot;  VERBOSE=1 Envision"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/omakovsk/Desktop/Envision/cmake-build-debug/Makefile&quot;  VERBOSE=1 view"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/omakovsk/Desktop/Envision/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/omakovsk/Desktop/Envision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/omakovsk/Desktop/Envision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Envision/fast">
-				<Option output="/Users/omakovsk/Desktop/Envision/cmake-build-debug/Envision" prefix_auto="0" extension_auto="0"/>
+			<Target title="view/fast">
+				<Option output="/Users/omakovsk/Desktop/Envision/view" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/omakovsk/Desktop/Envision/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,15 +73,36 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/omakovsk/Desktop/Envision/cmake-build-debug/Makefile&quot;  VERBOSE=1 Envision/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/omakovsk/Desktop/Envision/cmake-build-debug/Makefile&quot;  VERBOSE=1 view/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/omakovsk/Desktop/Envision/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/omakovsk/Desktop/Envision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/omakovsk/Desktop/Envision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/omakovsk/Desktop/Envision/add_area_to_cell.cpp">
+			<Option target="view"/>
+		</Unit>
+		<Unit filename="/Users/omakovsk/Desktop/Envision/initialize.cpp">
+			<Option target="view"/>
+		</Unit>
 		<Unit filename="/Users/omakovsk/Desktop/Envision/main.cpp">
-			<Option target="Envision"/>
+			<Option target="view"/>
+		</Unit>
+		<Unit filename="/Users/omakovsk/Desktop/Envision/print_errors.cpp">
+			<Option target="view"/>
+		</Unit>
+		<Unit filename="/Users/omakovsk/Desktop/Envision/read_facet.cpp">
+			<Option target="view"/>
+		</Unit>
+		<Unit filename="/Users/omakovsk/Desktop/Envision/read_facet_add.cpp">
+			<Option target="view"/>
+		</Unit>
+		<Unit filename="/Users/omakovsk/Desktop/Envision/string_to_double.cpp">
+			<Option target="view"/>
+		</Unit>
+		<Unit filename="/Users/omakovsk/Desktop/Envision/viewer.hpp">
+			<Option target="view"/>
 		</Unit>
 		<Unit filename="/Users/omakovsk/Desktop/Envision/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

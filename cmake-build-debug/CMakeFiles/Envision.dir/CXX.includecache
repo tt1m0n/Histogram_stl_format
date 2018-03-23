@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/omakovsk/Desktop/Envision/main.cpp
+iostream
+-
+sys/stat.h
+-
+fstream
+-
+viewer.hpp
+/Users/omakovsk/Desktop/Envision/viewer.hpp
+
+/Users/omakovsk/Desktop/Envision/viewer.hpp
+fstream
+-
+
