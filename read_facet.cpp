@@ -5,13 +5,13 @@ void	read_one_facet(std::ifstream &fd, double (&cells)[100])
 	std::string line;
 	triangle 	triangle;
 	const int	FACET_LINES = 7;
-	const int	LEN_ENDSOLID = 9;
+	const int	LEN_ENDSOLID = 8;
 
 	initialize_triangle(triangle);
 	for (int i = 1; i <= FACET_LINES; i++)
 	{
 		getline(fd, line);
-		if (line.substr(0, LEN_ENDSOLID) == "endsolid ")
+		if (line.substr(0, LEN_ENDSOLID) == "endsolid")
 		{
 			getline(fd, line);
 			return;

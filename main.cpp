@@ -4,6 +4,7 @@ int		main(int argc, char **argv)
 {
 	std::ifstream	file;
 	double			cells[100];
+	memset (cells, 0, sizeof(cells));
 	if (argc == 2)
 	{
 		check_if_dir(argv[1]);
@@ -11,7 +12,7 @@ int		main(int argc, char **argv)
 		if (file.is_open())
 		{
 			read_from_file(file, cells);
-			//make_magic
+			write_to_file(cells);
 		}
 		else
 			std::cout << "file [" << argv[1] << "] Does not exist"
@@ -20,6 +21,8 @@ int		main(int argc, char **argv)
 	}
 	else
 		std::cout << "Usage: ./viewer <filename>" << std::endl;
+
+	return (0);
 }
 
 void	check_if_dir(const char *file)
@@ -58,4 +61,16 @@ void	parse_first_str(std::string &line)
 				  << std::endl;
 		exit(EXIT_FAILURE);
 	}
+}
+
+void	write_to_file(double (&cells)[100])
+{
+	std::ofstream ready_file;
+
+	ready_file.open("histogram", std::ios::out | std::ios::trunc);
+	for(int i = 0; i < 100; i++)
+	{
+		ready_file << cells[i] << std::endl;
+	}
+	ready_file.close();
 }

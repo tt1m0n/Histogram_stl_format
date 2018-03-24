@@ -32,7 +32,7 @@ void	check_end_of_line(std::string &line)
 {
 	size_t	last_elem;
 
-	last_elem = line.find_first_not_of(" \t", 0);
+	last_elem = line.find_first_not_of(" \t\r", 0);
 	if (last_elem != std::string::npos)
 		print_error_facet();
 }

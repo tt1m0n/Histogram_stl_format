@@ -5,7 +5,7 @@ CXXFLAGS = -Wall -Werror -Wextra
 NAME = view
 
 SRC = main.cpp print_errors.cpp read_facet.cpp read_facet_add.cpp\
-      string_to_double.cpp initialize.cpp
+      string_to_double.cpp initialize.cpp add_area_to_cell.cpp
 
 OBJ = $(SRC:.cpp=.o)
 

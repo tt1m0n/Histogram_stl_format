@@ -10,8 +10,7 @@ void		add_area_to_cell(double (&cells)[100],
 	area = сount_area_triangle(triangle);
 	angle = count_angle(triangle.normalle);
 	index = find_index_cell(angle);
-	std::cout << index << std::endl;
-
+	cells[index] += area;
 }
 
 double			сount_area_triangle (const triangle &triangle)
@@ -84,5 +83,7 @@ int				find_index_cell (double angle)
 	int index;
 
 	index = int((angle + 90.0) / 1.8);
+	if (index == 100)
+		index -= 1;
 	return (index);
 }
