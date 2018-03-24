@@ -11,4 +11,4 @@ Dependencies:
 4. if no errors print "python viz.py" 
 
 ![alt text](https://github.com/tt1m0n/Histogram_stl_format/blob/master/histogram1%20PM.png)
-![alt text] (https://github.com/tt1m0n/Histogram_stl_format/blob/master/histogram2%20PM.png)
+![alt text](https://github.com/tt1m0n/Histogram_stl_format/blob/master/histogram2%20PM.png)
