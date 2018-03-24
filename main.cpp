@@ -21,7 +21,6 @@ int		main(int argc, char **argv)
 	}
 	else
 		std::cout << "Usage: ./viewer <filename>" << std::endl;
-
 	return (0);
 }
 

@@ -26,7 +26,7 @@ void	read_outer_loop (std::string &line)
 		&& line.substr(first_elem, LEN_PRE_STR) == "outer loop")
 	{
 		line.erase(0, first_elem + LEN_PRE_STR);
-		void	check_end_of_line(std::string &line);
+		check_end_of_line(line);
 	}
 	else
 		print_error_facet();
@@ -58,7 +58,7 @@ void	read_endloop (std::string &line)
 		&& line.substr(first_elem, LEN_PRE_STR) == "endloop")
 	{
 		line.erase(0, first_elem + LEN_PRE_STR);
-		void	check_end_of_line(std::string &line);
+		check_end_of_line(line);
 	}
 	else
 		print_error_facet();
@@ -74,7 +74,7 @@ void	read_endfacet (std::string &line)
 		&& line.substr(first_elem, LEN_PRE_STR) == "endfacet")
 	{
 		line.erase(0, first_elem + LEN_PRE_STR);
-		void	check_end_of_line(std::string &line);
+		check_end_of_line(line);
 	}
 	else
 		print_error_facet();
