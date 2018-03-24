@@ -10,4 +10,4 @@ Dependencies:
 3. ./view \<filename\>
 4. if no errors print "python viz.py" 
 
-[[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
