@@ -1,3 +1,6 @@
+1. The application allows to load the STL model (only ASCII Format).
+2. Calculate and give an opportunity to visualize the histogram of the orientation of the triangles.
+
 Dependencies:
 - Python 2.7
 - library matplotlib
