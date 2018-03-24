@@ -1,6 +1,6 @@
 #include "viewer.hpp"
 
-void	read_one_facet(std::ifstream &fd, double *cell)
+void	read_one_facet(std::ifstream &fd, double (&cells)[100])
 {
 	std::string line;
 	triangle 	triangle;
@@ -18,7 +18,7 @@ void	read_one_facet(std::ifstream &fd, double *cell)
 		}
 		read_facet_line (line, i, triangle);
 	}
-	add_area_to_cell(cell, triangle);
+	add_area_to_cell(cells, triangle);
 }
 
 void	read_facet_line (std::string &line, int number, triangle &triangle)

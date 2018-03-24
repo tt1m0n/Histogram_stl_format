@@ -3,14 +3,14 @@
 int		main(int argc, char **argv)
 {
 	std::ifstream	file;
-	double			cell[100];
+	double			cells[100];
 	if (argc == 2)
 	{
 		check_if_dir(argv[1]);
 		file.open(argv[1], std::ios::in);
 		if (file.is_open())
 		{
-			read_from_file(file, cell);
+			read_from_file(file, cells);
 			//make_magic
 		}
 		else
@@ -34,14 +34,14 @@ void	check_if_dir(const char *file)
 	}
 }
 
-void	read_from_file(std::ifstream &fd, double *cell)
+void		read_from_file(std::ifstream &fd, double (&cells)[100])
 {
 	std::string line;
 
 	getline(fd, line);
 	parse_first_str(line);
 	while (!fd.eof())
-		read_one_facet(fd, cell);
+		read_one_facet(fd, cells);
 }
 
 void	parse_first_str(std::string &line)

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/omakovsk/Desktop/Envision/add_area_to_cell.cpp
+viewer.hpp
+/Users/omakovsk/Desktop/Envision/viewer.hpp
+
 /Users/omakovsk/Desktop/Envision/initialize.cpp
 viewer.hpp
 /Users/omakovsk/Desktop/Envision/viewer.hpp
@@ -40,5 +44,7 @@ sys/stat.h
 fstream
 -
 cctype
+-
+cmath
 -
 

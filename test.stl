@@ -1,9 +1,9 @@
 solid     aadasdaddasdsadsadsa
-  facet normal 0.000000e+000 -1.000000e+000 0.000000e+000
+facet normal -5.812671e-001 8.111528e-001 -6.449595e-002
     outer loop
-      vertex  1.000000e+000 1.000000e+000 1.000000e+000
-      vertex  1.000000e+000 1.000000e+000 -6.123234e-017
-      vertex 2.000000e+000 1.000000e+000 1.000000e+000
+      vertex  -8.555486e-001 -5.213342e+000 4.591916e+001
+      vertex  -6.339577e-001 -5.043525e+000 4.605784e+001
+      vertex  -6.158002e-001 -5.063375e+000 4.564455e+001
     endloop
   endfacet
-endsolid 
+endsolid vcg
