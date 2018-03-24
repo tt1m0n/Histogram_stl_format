@@ -10,4 +10,4 @@ Dependencies:
 3. ./view \<filename\>
 4. if no errors print "python viz.py" 
 
-![all text] (https://github.com/tt1m0n/Histogram_stl_format/blob/master/histogram1%20PM.png)
+[[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
