@@ -19,4 +19,5 @@ Dependencies:
 ![alt text](https://github.com/tt1m0n/Histogram_stl_format/blob/master/histogram3_PM.png)
 
 
-![alt text](https://github.com/tt1m0n/Histogram_stl_format/blob/master/histogram4_PM.png)
+![alt text](https://github.com/tt1m0n/Histogram_stl_format/blob/master/Screen%20Shot%202018-03-28%20at%206.03.03%20PM.png)
+
