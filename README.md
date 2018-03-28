@@ -13,7 +13,10 @@ Dependencies:
 3. ./view \<filename\>
 4. if no errors print "python viz.py" 
 
-![alt text](https://github.com/tt1m0n/Histogram_stl_format/blob/master/histogram1%20PM.png)
+![alt text](https://github.com/tt1m0n/Histogram_stl_format/blob/master/Screen%20Shot%202018-03-28%20at%206.02.27%20PM.png)
 
 
-![alt text](https://github.com/tt1m0n/Histogram_stl_format/blob/master/histogram2%20PM.png)
+![alt text](https://github.com/tt1m0n/Histogram_stl_format/blob/master/histogram3_PM.png)
+
+
+![alt text](https://github.com/tt1m0n/Histogram_stl_format/blob/master/histogram4_PM.png)
